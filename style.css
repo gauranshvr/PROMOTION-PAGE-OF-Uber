@@ -4,8 +4,7 @@ body {
     padding: 0;
     color: #333;
     background-color: #f9f9f9;
- 
-}
+ }
 
 html {
     scroll-behavior: smooth;
@@ -61,7 +60,6 @@ h1, h2, h3 {
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    
 }
 
 .feature, .testimonial {
@@ -74,7 +72,6 @@ h1, h2, h3 {
 }
 .feature{
     transition:all 0.5s ease-out;
-
 }
 
 .feature:hover {
@@ -86,38 +83,28 @@ h1, h2, h3 {
   .testimonial:hover {
     transform: scale(1.1);
   }
-
- 
-  .gallery {
+.gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
- 
-
   }
 
 .img1{
   margin: auto;
 }
 
-  .img1 img{
+.img1 img{
     max-width: 50%;
     border-radius: 20px;
     
-  }
-  .gallery img:hover {
+}
+.gallery img:hover {
     transform: scale(1.1);
-  }
- 
-
-
+}
 .ride-plans {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
-
-
 .plan {
     background: white;
     border-radius: 10px;
@@ -137,10 +124,6 @@ h1, h2, h3 {
 /* .car:hover img {
     transform: scale(1.1);
   } */
-
-
-
-
 .contact-form {
     max-width: 300px;
     margin: 0 auto;
@@ -221,6 +204,8 @@ h1, h2, h3 {
     font-family: var(--Playfair);
     letter-spacing: 2px;
   }
+
+
 @media (max-width: 767px) {
     .hero {
         background: #6f8faf;
@@ -266,26 +251,23 @@ h1, h2, h3 {
     .gallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        
-     
-    
-      }
+    }
     
     .img1{
       margin: auto;
     }
     
-      .img1 img{
+    .img1 img{
         max-width: 90%;
         border-radius: 20px;
         
-      }
-      .gallery img{
+    }
+    .gallery img{
         transition:all 1.0s ease-out;
-      }
-      .gallery img:hover {
+    }
+    .gallery img:hover {
         transform: scale(1.2);
-      }
+    }
     .platform{
         height: 160px;
         background-color: rgb(34, 35, 35);
@@ -294,20 +276,20 @@ h1, h2, h3 {
         text-align: center;
         padding: 2rem 0;
           
-      }
-      .platform span{
+    }
+    .platform span{
         color: #fff;
         font-size: small;
         display: block;
         font-family: var(--Playfair);
         letter-spacing: 1px;
-      }
-      .testimonial{
+    }
+    .testimonial{
         transition:all 1.0s ease-out;
-      }
-      .testimonial:hover {
+    }
+    .testimonial:hover {
         transform: scale(1.1);
-      }
+    }
 }    
       
     
